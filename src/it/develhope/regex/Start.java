@@ -8,7 +8,7 @@ public class Start {
 
         String s1 = "are you able to climb, are you able to swim or are you able to fly?";
 
-        System.out.println(s1.replaceAll("\sare", "_XYZ"));
+        System.out.println(s1.replaceAll("\s+are", "_XYZ"));
 
         System.out.println("--------------------------------------");
 
